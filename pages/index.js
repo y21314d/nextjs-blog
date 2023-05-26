@@ -22,6 +22,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <section className={utilStyles.headingLg}>
+        <p>[New Edit Page]</p>
+      </section>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
